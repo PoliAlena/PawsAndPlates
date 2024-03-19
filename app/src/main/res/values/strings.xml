@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Paws &amp; Plates</string>
+    <string name="Aut" translatable="false">Авторизация</string>
+    <string name="PasswordR" translatable="false">Пароль</string>
+    <string name="AutB" translatable="false">Войти</string>
+    <string name="cat" translatable="false">Котик</string>
+    <string name="main" translatable="false">Привет! \nНовые рецепты уже ждут тебя в нашем приложении! </string>
+    <string name="EmailR" translatable="false">Почта</string>
+    <string name="breackfast" translatable="false">Завтраки</string>
+    <string name="backing" translatable="false">Выпечка</string>
+    <string name="salad" translatable="false">Салаты</string>
+    <string name="soop" translatable="false">Супы</string>
+    <string name="drinks" translatable="false">Напитки</string>
+    <string name="desert" translatable="false">Десерты</string>
+    <string name="meat" translatable="false">Мясо</string>
+    <string name="sushi" translatable="false">Суши</string>
+    <string name="fastfood" translatable="false">Фаст-фуд</string>
+    <string name="reg" translatable="false">Регистрация</string>
+</resources>

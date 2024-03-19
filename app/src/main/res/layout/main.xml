@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/cat"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/catbb" />
+
+    <SearchView
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:background="@drawable/block"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/cat"/>
+
+    <TableRow
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:clickable="false"
+        android:contentDescription="@string/cat"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/cat"
+            app:srcCompat="@drawable/catc"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="104dp"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="221dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/cat"
+            android:lineSpacingExtra="4dp"
+            android:paddingLeft="4sp"
+            android:paddingTop="19dp"
+            android:text="@string/main"
+            android:textSize="17sp"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="106dp"
+            android:textColor="@color/bd"/>
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="355dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.008"
+        android:contentDescription="@string/cat">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/breakfast"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                style="@style/bb"
+                android:layout_margin="7dp" />
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/meat"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/deserts"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/breackfast"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/meat"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/desert"
+                style="@style/Text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/salad"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/soop"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/drinks"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/salad"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/soop"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/drinks"
+                style="@style/Text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/sushi"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/fastfood"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:contentDescription="@string/cat"
+                app:srcCompat="@drawable/backing"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="104dp"
+                android:padding="15dp"
+                android:background="@drawable/block"
+                android:layout_margin="7dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/sushi"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/fastfood"
+                style="@style/Text"/>
+            <TextView
+                android:text="@string/backing"
+                style="@style/Text"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

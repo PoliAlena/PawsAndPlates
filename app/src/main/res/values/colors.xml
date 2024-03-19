@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="b">#664E4C</color>
+    <color name="g">#C1D37F</color>
+    <color name="y">#E2D58B</color>
+    <color name="yw">#F0E2A3</color>
+    <color name="p">#F9D4BB</color>
+    <color name="bd">#302522</color>
+    <color name="bdl">#B2302522</color>
+    <color name="yww">#fff2ba</color>
+</resources>

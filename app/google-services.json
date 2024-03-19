@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248430594777",
+    "project_id": "pawsplate-2f0e0",
+    "storage_bucket": "pawsplate-2f0e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248430594777:android:d69f50302c2fa4f4de0cc8",
+        "android_client_info": {
+          "package_name": "com.example.pawsplates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKyg-_W9bt9Ku8Z-XOk-AA8g-U5lE7tA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
