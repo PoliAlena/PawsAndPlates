@@ -106,7 +106,7 @@
         android:id="@+id/textView3"
         android:onClick="RegB"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="7dp"
         android:text="@string/reg"
         android:textSize="15sp"
