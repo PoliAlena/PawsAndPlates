@@ -57,7 +57,7 @@
             android:layout_height="150dp"
             android:contentDescription="@string/cat"
             android:lineSpacingExtra="4dp"
-            android:paddingLeft="4sp"
+            android:paddingStart="4sp"
             android:paddingTop="19dp"
             android:text="@string/main"
             android:textSize="17sp"
